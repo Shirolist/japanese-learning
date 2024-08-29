@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.jisnormal {
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.jisnormal span {
+    color: white;
+}
+
+.green-outline {
+    text-shadow: 
+        -1px -1px 0 #00a86b,
+        1px -1px 0 #00a86b,
+        -1px 1px 0 #00a86b,
+        1px 1px 0 #00a86b;
+}
+
+.purple-outline {
+    text-shadow: 
+        -1px -1px 0 #800080,
+        1px -1px 0 #800080,
+        -1px 1px 0 #800080,
+        1px 1px 0 #800080;
+}
+
+.light-purple-outline {
+    text-shadow: 
+        -1px -1px 0 #e6e6fa,
+        1px -1px 0 #e6e6fa,
+        -1px 1px 0 #e6e6fa,
+        1px 1px 0 #e6e6fa;
+}
+
