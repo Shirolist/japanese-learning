@@ -1,9 +1,11 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0;
     background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
 }
 
 .jisnormal {
@@ -44,3 +46,10 @@ body {
         1px 1px 0 #e6e6fa;
 }
 
+.sentence {
+    font-size: 18px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
