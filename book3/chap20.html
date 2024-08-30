@@ -455,6 +455,7 @@
                 </tbody>
             </table>
             <div class="button-container">
+                <button class="content-button" onclick="showPrevious()">前へ</button>
                 <button class="content-button" onclick="showcontent()">続き</button>
             </div>
         </div>
@@ -462,8 +463,10 @@
 </body>
 <script>
     function showcontent() {
-        alert("Redirecting to the page about content...");
-         window.location.href = "content/chap20_content.html";  
+        window.location.href = "content/chap20_content.html";  
     }
-    </script>
+    function showPrevious() {
+        window.location.href = "../index.html";  
+    }
+</script>
 </html>
