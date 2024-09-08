@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.jisnormal {
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.jisnormal span {
+    color: white;
+}
+
+.green-outline {
+    text-shadow: 
+        -1px -1px 0 #00a86b,
+        1px -1px 0 #00a86b,
+        -1px 1px 0 #00a86b,
+        1px 1px 0 #00a86b;
+}
+
+.purple-outline {
+    text-shadow: 
+        -1px -1px 0 #800080,
+        1px -1px 0 #800080,
+        -1px 1px 0 #800080,
+        1px 1px 0 #800080;
+}
+
+.light-purple-outline {
+    text-shadow: 
+        -1px -1px 0 #e6e6fa,
+        1px -1px 0 #e6e6fa,
+        -1px 1px 0 #e6e6fa,
+        1px 1px 0 #e6e6fa;
+}
+
+.sentence {
+    font-size: 18px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.sentence-table {
+    width: 100%;
+    max-width: 600px; /* Set a maximum width */
+    border-collapse: separate;
+    border-spacing: 0 20px;
+  }
+  
+  .sentence-table tr {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .sentence-table td {
+    vertical-align: top;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: calc(33.333% - 20px); /* Adjusted width for each cell */
+  }
+  
+  .sentence-table td:first-child,
+  .sentence-table td:nth-child(2),
+  .sentence-table td:last-child {
+    width: auto; /* Allow text to wrap */
+  }
+  
+  .sentence-table td span {
+    display: block;
+    text-align: right;
+  }
