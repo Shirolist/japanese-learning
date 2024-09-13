@@ -54,21 +54,25 @@ body {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.sentence span.word {
-  position: relative;
-}
 
 .sentence br {
   margin-bottom: 0.5em;
 }
 
-.sentence span.parenthesis {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 12px;
+.sentence rt {
+  font-size: 10px;
   color: #dd0cba;
 }
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  font-style: italic;
+  color:#00a86b;
+  font-weight: bold;
+}
+
 .sentence-table {
     width: 100%;
     max-width: 600px; /* Set a maximum width */
