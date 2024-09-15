@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .group {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .group h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+  }
+  
+  .group-i h2 {
+    color: red;
+  }
+  
+  .group-ii h2 {
+    color: blue;
+  }
+  
+  .group-iii h2 {
+    color: green;
+  }
+  
+  .subtitle {
+    font-size: 0.8rem;
+  }
+  
+  .group ul {
+    list-style-type: none;
+  }
+  
+  .group ul li {
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+  }
+  
+  .subgroup {
+    margin-bottom: 15px;
+  }
+  
+  .note {
+    font-size: 0.8rem;
+    color: grey;
+  }
+  
+  @media (max-width: 768px) {
+    .group {
+      width: 100%;
+    }
+  }
+  
+  .flowchart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .decision-block {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .yes-no-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .yes, .no {
+    border: 2px solid #000;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    margin-right: 10px;
+  }
+  
+  .arrow {
+    width: 100px;
+    height: 2px;
+    background-color: black;
+    margin: 0 10px;
+  }
+  
+  .block {
+    border: 2px solid #000;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    background-color: #fff;
+  }
+  
+  .block p {
+    font-size: 1rem;
+  }
+  
+  .block.yellow {
+    border-color: gold;
+  }
+  
+  .block.red {
+    border-color: red;
+    color: red;
+  }
+
+  .content{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px;
+    width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .content ul {
+    list-style-type: none;
+  }
+  
+  .content ul li {
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+  }

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Japanese Verb Groups</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Group I -->
+    <div class="group group-i">
+      <h2>Group I <span class="subtitle">-u (五段動詞)</span></h2>
+      <ul>
+        <li>書く</li>
+        <li>泳ぐ</li>
+        <li>読む</li>
+        <li>遊ぶ</li>
+        <li>死ぬ</li>
+        <li>話す</li>
+        <li>買う</li>
+        <li>待つ</li>
+        <li>乗る</li>
+        <li>売る</li>
+        <li>走る</li>
+        <li>帰る</li>
+      </ul>
+    </div>
+
+    <!-- Group II -->
+    <div class="group group-ii">
+      <h2>Group II <span class="subtitle">-ru (一段動詞)</span></h2>
+      <div class="subgroup">
+        <p>上一段:</p>
+        <ul>
+          <li>見る</li>
+          <li>起きる</li>
+          <li>降りる</li>
+          <li>借りる</li>
+          <li>いる</li>
+        </ul>
+      </div>
+      <div class="subgroup">
+        <p>下一段:</p>
+        <ul>
+          <li>食べる</li>
+          <li>寝る</li>
+          <li>掛ける</li>
+          <li>建てる</li>
+          <li>教える</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Group III -->
+    <div class="group group-iii">
+      <h2>Group III <span class="subtitle">Irregular (変格動詞)</span></h2>
+      <ul>
+        <li>する <span class="note">(サ行変格)</span></li>
+        <li>来る <span class="note">(カ行変格)</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="flowchart-container">
+        <!-- First Decision Block (する・来る？) -->
+        <div class="decision-block">
+            <p>する・来る？</p>
+            <div class="yes-no-container">
+                <div class="yes">Yes</div>
+                <div class="arrow"></div>
+                <div class="block">Group III<br>する・来る</div>
+            </div>
+            <div class="no">No</div>
+            <p>↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓</p>
+        </div>
+
+        <!-- Second Decision Block (~る？) -->
+        <div class="decision-block">
+            <p>～る？</p>
+            <div class="yes-no-container">
+                <div class="yes">Yes</div>
+                <div class="arrow"></div>
+                <div class="block">Group II<br>起きる・食べる</div>
+            </div>
+            <div class="no">No</div>
+            <p>↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓</p>
+        </div>
+
+        <!-- Third Decision Block (~あ・う・おる？) -->
+        <div class="decision-block">
+            <p>～あ・う・おる？</p>
+            <div class="yes-no-container">
+                <div class="yes">Yes</div>
+                <div class="arrow"></div>
+                <div class="block">Group I<br>飲む・書く</div>
+            </div>
+            <div class="no">No</div>
+            <p>↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓</p>
+        </div>
+
+        <!-- Fourth Decision Block (~い・え・例外？) -->
+        <div class="decision-block">
+            <p>～い・え・例外？</p>
+            <div class="yes-no-container">
+                <div class="yes">Yes</div>
+                <div class="arrow"></div>
+                <div class="block">例外！<br>切る・帰る</div>
+            </div>
+            <div class="no">No</div>
+            <p>↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓</p>
+        </div>
+
+
+        <div class="yes-no-container">
+            <div class="block">Group II<br>起きる・食べる</div>
+        </div>
+
+    </div>
+    <div class="container">
+      <!-- group 1-->
+      <div class="content group-i">
+        <h2>Group I </h2>
+        <div class="container">
+          <ul>
+            <li>書か　ない</li>
+            <li>書き　ます</li>
+            <li>書く</li>
+            <li>書け　る</li>
+            <li>書こ　う</li>
+          </ul>
+        </div>
+        <div class="container">
+          <ul>
+            <li>第１変化（否定形）</li>
+            <li>第２変化（ます形）</li>
+            <li>第３変化（辞書形）</li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+      <!-- group II-->
+      <div class="content group-ii">
+        <h2>Group II </h2>
+        <div class="container">
+          <ul>
+            <li>寝　ない</li>
+            <li>寝　ます</li>
+            <li>寝る</li>
+            <li>寝　られる</li>
+            <li>寝　よう</li>
+          </ul>
+        </div>
+        <div class="container">
+          <ul>
+            <li>第１変化（否定形）</li>
+            <li>第２変化（ます形）</li>
+            <li>第３変化（辞書形）</li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+      <!-- group II-->
+      <div class="content group-iii">
+        <h2>Group III </h2>
+        <div class="container">
+          <ul>
+            <li>こ　ない</li>
+            <li>き　ます</li>
+            <li>くる</li>
+            <li>こられ　る</li>
+            <li>こ　よう</li>
+          </ul>
+        </div>
+        <div class="container">
+          <ul>
+            <li>第１変化（否定形）</li>
+            <li>第２変化（ます形）</li>
+            <li>第３変化（辞書形）</li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+      <!-- group II-->
+      <div class="content group-iii">
+        <h2>Group III </h2>
+        <div class="container">
+          <ul>
+            <li>し　ない</li>
+            <li>し　ます</li>
+            <li>する</li>
+            <li>でき　る</li>
+            <li>し　よう</li>
+          </ul>
+        </div>
+        <div class="container">
+          <ul>
+            <li>第１変化（否定形）</li>
+            <li>第２変化（ます形）</li>
+            <li>第３変化（辞書形）</li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
