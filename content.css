@@ -180,3 +180,12 @@ body::before {
     background-color: #ffe4e1;
     box-shadow: 0 0 20px rgba(255, 105, 180, 0.7);
 }
+
+img {
+  width: 600px;
+}
+@media screen and (max-width: 600px){
+  img {
+    width: 450px;
+  }
+}
