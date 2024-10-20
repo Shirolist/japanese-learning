@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <script src="main.js"></script>
+<script src="../sound.js"></script>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,16 +24,23 @@
                     <tr>
                         <td>すずしい</td>
                         <td>涼しい</td>
-                        <td>涼爽的</td>
+                        <td>涼爽的
+                            <span class="footer">   體感溫度：<ruby>涼<rp>(</rp><rt>すず</rt><rp>)</rp></ruby>しい　⇔　<ruby>暖<rp>(</rp><rt>あたた</rt><rp>)</rp></ruby>かい<br>
+                                                    接觸溫度：<ruby>冷<rp>(</rp><rt>さ</rt><rp>)</rp></ruby>めた　⇔　<ruby>温<rp>(</rp><rt>ぬく</rt><rp>)</rp></ruby>い</span>
+                        </td>
                     </tr>
                     <tr>
                         <td>あんな</td>
                         <td></td>
-                        <td>那樣的</td>
+                        <td>那樣的
+                            <span class="footer">   こんな：離説話者近的<br>
+                                                    そんな：離對方近的<br>
+                                                    あんな：説話者的回想，心中的距離</span>
+                        </td>
                     </tr>
                     <tr>
                         <td>ほしい</td>
-                        <td></td>
+                        <td>欲しい</td>
                         <td>想要</td>
                     </tr>
                     <tr>
@@ -53,7 +61,10 @@
                     <tr>
                         <td>クッキー</td>
                         <td></td>
-                        <td>餅乾</td>
+                        <td>餅乾<span class="footer">
+                            ビスケット：統一的，由工廠生產的<br>
+                            クッキー：手作，不是模板打出來的
+                        </span></td>
                     </tr>
                     <tr>
                         <td>あたたかい</td>
@@ -63,12 +74,17 @@
                     <tr>
                         <td>やおや</td>
                         <td>八百屋</td>
-                        <td>蔬果店</td>
+                        <td>蔬果店<span class="footer">
+                            <ruby>八百長<rp>(</rp><rt>やおちょう</rt><rp>)</rp></ruby>：打假賽，造馬
+                        </span></td>
                     </tr>
                     <tr>
                         <td>うれしい</td>
                         <td></td>
-                        <td>高興的</td>
+                        <td>高興的<span class="footer">recap：<ruby>嬉<rp>(</rp><rt>うれ</rt><rp>)</rp></ruby>しい【長期】<br>
+                            <ruby>楽<rp>(</rp><rt>たの</rt><rp>)</rp></ruby>しい【短期】
+                        </span>
+                        <span class="footer">凄<u>く</u>美味しい</span></td>
                     </tr>
                     <tr>
                         <td>そら</td>
@@ -98,7 +114,12 @@
                     <tr>
                         <td>すごい（雨）</td>
                         <td></td>
-                        <td>非常的，厲害的（雨）</td>                   
+                        <td>非常的，厲害的（雨）<span class="footer">
+                            <ruby>雨<rp>(</rp><rt>あめ</rt><rp>)</rp></ruby>が<ruby>止<rp>(</rp><rt>や</rt><rp>)</rp></ruby>む
+                            過去式：<ruby>止<rp>(</rp><rt>や</rt><rp>)</rp></ruby>んだ
+                        </span>
+
+                        </td>                   
                     </tr>
                     <tr>
                         <td>しばらく</td>
@@ -108,7 +129,12 @@
                     <tr>
                         <td>やむ</td>
                         <td></td>
-                        <td>停止，中止</td>                   
+                        <td>停止，中止                        
+                        <span class="footer">
+                            止める：他動詞，以「NをV」形式表示停止、制止等動作
+                            止める：非意志自動詞，以「NがV」形式表示停止、停留等狀態
+                            止む：非意志自動詞，以「NがV」形式表示自然現象停止的狀態
+                        </span></td>                   
                     </tr>
                     <tr>
                         <td>ショートケーキ</td>
@@ -123,7 +149,10 @@
                     <tr>
                         <td>うちわ</td>
                         <td></td>
-                        <td>團扇</td>                   
+                        <td>團扇<span class="footer">
+                            <ruby>扇子<rp>(</rp><rt>せんす</rt><rp>)</rp></ruby>：摺叠扇<br>
+                            うちわ：<img src="https://i.pinimg.com/564x/ee/51/3f/ee513f54ac53c858b8cca683af51a769.jpg" width="28" height="28"><br>
+                        </span></td>                   
                     </tr>
                     <tr>
                         <td>こんな</td>
@@ -148,7 +177,10 @@
                     <tr>
                         <td>くすりや</td>
                         <td>薬屋</td>
-                        <td>藥局，藥房</td>                   
+                        <td>藥局，藥房<span class="footer">
+                            <ruby>薬屋<rp>(</rp><rt>くすりや</rt><rp>)</rp></ruby>是有藥劑師的藥局。
+                            <ruby>薬局<rp>(</rp><rt>やっきょく</rt><rp>)</rp></ruby>是指銷售藥品的商店、沒有藥劑師。
+                        </span></td>                   
                     </tr>
                     <tr>
                         <td>かぜぐすり</td>
@@ -161,14 +193,19 @@
                         <td>頭痛薬</td>                   
                     </tr>
                     <tr>
-                        <td>薬（くすり）がつよい</td>
+                        <td>（<ruby>薬<rp>(</rp><rt>くすり</rt><rp>)</rp></ruby>が）つよい</td>
                         <td>強い</td>
                         <td>（藥效）强的，厲害的</td>                   
                     </tr>
                     <tr>
                         <td>ねむい</td>
                         <td>眠い</td>
-                        <td>想睡的，睏的</td>                   
+                        <td>想睡的，睏的
+                            <span class="footer">
+                                <ruby>眠<rp>(</rp><rt>ねむ</rt><rp>)</rp></ruby>い：想睡的<br>
+                                <ruby>眠<rp>(</rp><rt>ねむ</rt><rp>)</rp></ruby>る：睡著的
+                            </span>
+                        </td>                   
                     </tr>
                     <tr>
                         <td>デジカメ</td>
@@ -178,7 +215,11 @@
                     <tr>
                         <td>おりたたみ</td>
                         <td>折りたたみ</td>
-                        <td>摺叠</td>                   
+                        <td>摺叠
+                            <span class="footer">
+                                折り畳み<ruby>席<rp>(</rp><rt>せき</rt><rp>)</rp></ruby>：可摺叠的椅子、折り畳み<ruby>自転車<rp>(</rp><rt>じてんしゃ</rt><rp>)</rp></ruby>：可摺叠的單車
+                            </span>
+                        </td>                   
                     </tr>
                     <tr>
                         <td>め</td>
@@ -198,7 +239,12 @@
                     <tr>
                         <td>ふえる</td>
                         <td>増える</td>
-                        <td>增加</td>                   
+                        <td>增加
+                            <span class="footer">
+                                増える　⇔　<ruby>減<rp>(</rp><rt>へ</rt><rp>)</rp></ruby>る【自動詞】
+                                増やす　⇔　<ruby>減<rp>(</rp><rt>へ</rt><rp>)</rp></ruby>らす【他動詞】
+                            </span>
+                        </td>                   
                     </tr>
                     <tr>
                         <td>ははのひ</td>
@@ -243,7 +289,14 @@
                     <tr>
                         <td>ろせんず</td>
                         <td>路線図</td>
-                        <td>路綫圖</td>                   
+                        <td>路綫圖
+                        <span class="footer">
+                            <ruby>線路<rp>(</rp><rt>せんろ</rt><rp>)</rp></ruby>：專指火車的路軌
+                            <ruby>回路<rp>(</rp><rt>かいろ</rt><rp>)</rp></ruby>：電路,可以指電話綫
+                        </span>
+                        <span class="footer">
+                            <ruby>路線<rp>(</rp><rt>ろせん</rt><rp>)</rp></ruby>バス：跟著路綫走的巴士
+                        </span></td>                   
                     </tr>
                     <tr>
                         <td>がくせいか</td>
@@ -253,7 +306,10 @@
                     <tr>
                         <td>しょうがくきん</td>
                         <td>奨学金</td>
-                        <td>獎學金</td>                   
+                        <td>獎學金
+                        <span class="footer">
+                            <ruby>奨学生<rp>(</rp><rt>しょうがくせい</rt><rp>)</rp></ruby>＝拿取獎學金的學生
+                        </span></td>                   
                     </tr>
                     <tr>
                         <td>ひこうき</td>
@@ -263,7 +319,11 @@
                     <tr>
                         <td>おもちゃ</td>
                         <td></td>
-                        <td>玩具</td>                   
+                        <td>玩具
+                        <span class="footer">
+                            おもちゃ<u>で</u><ruby>遊<rp>(</rp><rt>あそ</rt><rp>)</rp></ruby>ぶ<br>
+                            因爲是不及物動詞
+                        </span></td>                   
                     </tr>
                     <tr>
                         <td>プレゼントする</td>
@@ -288,12 +348,29 @@
                     <tr>
                         <td>かわ</td>
                         <td>革</td>
-                        <td>皮革</td>                   
+                        <td>皮革
+                            <span class="footer">
+                                <ruby>革<rp>(</rp><rt>かわ</rt><rp>)</rp></ruby>：經過製甲過程，皮革
+                                <ruby>皮<rp>(</rp><rt>かわ</rt><rp>)</rp></ruby>：生的動物皮：鷄皮，豬皮
+                            </span>
+                        </td>                   
                     </tr>
                     <tr>
                         <td>けいと</td>
                         <td>毛糸</td>
-                        <td>毛綫</td>                   
+                        <td>毛綫 
+                            <span class="footer">
+                            注意讀音<br>
+                            <div class="word-container">
+                                <ruby>歯医者<rp>(</rp><rt>はいしゃ</rt><rp>)</rp></ruby>
+                                <img class="tts-trigger" src="../element/volume.png" alt="Play" width="15" height="15">
+                            </div>
+                            <div class="word-container">
+                                <ruby>廃車<rp>(</rp><rt>はいしゃ</rt><rp>)</rp></ruby>
+                                <img class="tts-trigger" src="../element/volume.png" alt="Play" width="15" height="15">
+                            </div>
+                            </span>
+                        </td>                   
                     </tr>
                     <tr>
                         <td>ひく</td>
