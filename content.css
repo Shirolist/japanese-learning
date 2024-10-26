@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Arial, serif;
   margin: 0;
   padding: 0;
   background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
@@ -78,7 +78,8 @@ body::before {
 
 .sentence rt {
   font-size: 10px;
-  color: #dd0cba;
+  font-family: serif; 
+  color:rgb(180, 49, 206) ;
 }
 
 .center {
@@ -123,16 +124,37 @@ body::before {
     text-align: right;
   }
   .footer {
-    font-size: 10px;
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #f0f0f0;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    display: block;
+      font-size: 10px;
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #f0f0f0;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      display: block;
   }
+
   .footer rt {
-    font-size: 8px;
+      font-size: 8px;
+  }
+
+  .footer-table {
+      width: 100%;
+      border-collapse: collapse;
+  }
+
+  .footer-table th,
+  .footer-table td {
+      padding: 8px;
+      border: 1px solid #ddd;
+      text-align: center;
+  }
+
+  .footer-table th {
+      background-color: #ffffcc; /* Light yellow */
+  }
+
+  .footer-table td:first-child {
+      background-color: #e6e6fa; /* Light purple */
   }
   .button-container {
     text-align: center;
@@ -189,3 +211,5 @@ img {
     width: 350px;
   }
 }
+
+
