@@ -70,7 +70,13 @@ body::before {
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
-
+.paragraph {
+  font-size: 18px;
+  background-color: #8cd2ee;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
 
 .sentence br {
   margin-bottom: 0.5em;
@@ -123,6 +129,7 @@ body::before {
     display: block;
     text-align: right;
   }
+
   .footer {
       font-size: 10px;
       margin-top: 20px;
